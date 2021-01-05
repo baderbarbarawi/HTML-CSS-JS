@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta charset="utf-8">
+
+        <title>Miene Formen</title>
+        <style>
+            #Titel{
+                text-align: center;
+                color: yellow;
+                font-style: oblique;
+            }
+            form > .feld
+            {
+                
+                color: crimson;
+            }
+            input[required]{
+                border:solid blue 3px;
+                
+            }
+            input:invalid{
+                border:solid red 3px;
+            }
+
+            html{
+
+                background: url("https://i.pinimg.com/originals/62/76/86/6276869d518bcaff533b56046ba83273.jpg");
+
+                background-size: 25%;
+            }
+            
+        </style>
+
+        
+        
+    </head>
+    <body>
+        <h1 id="Titel">Bitte geben Sie Ihre Danten ein</h1>
+        <form>
+            <label class="feld">Nachname:</label>
+            <input placeholder="Bitte geben Sie Ihr Nachname ein." required> <!--requied das Feld ist pflicht aufzufüllen-->
+            <br>                                                    <!--br beginnt eine neue Zeile.-->
+            <label class="feld">Vorname:</label>
+            <input placeholder="Bitte geben Sie Ihr Vorname ein." required>
+            <br>
+            <label>Alt</label>
+            <input type="number" min="18" max="33" placeholder="Bitte Geben Sie Ihre Alte ein." required><!--Placeholder gibt an, was in das Fled aufgefüllt werden soll-->
+            <br>
+            <label>Passwort</label>
+            <input type="password" placeholder="Passwort" required>
+            <br>
+
+            <input type="checkbox" id="Zulassung" required>
+            <label for="Zulassung">
+                <div style="color: rebeccapurple;"> <p>Ich akzeptiere es </p> </div> <!--"p" heißt ein Paragraph.-->
+                                                                                        <!--"div" -->
+            </label>
+            <br>
+            <label>Geschlecht:</label>
+
+            <label>
+            <input type="radio" name="geschlecht" value="Herr" checked> <!--Checked legt das Zeichen in einer (Herr) Lücke-->
+                        Herr    </label>
+                        
+                        <label>
+            <input type="radio" name="geschlecht">
+                        Frau
+            </label>
+            <br>
+            <button type="submit">erstellen</button>
+            <button type="reset">entleeren</button>
+            
+            <select name="gender" id="geschlecht">
+                <option value="male">Herr</option>
+                <option value="female">Frau</option>
+            </select>
+            
+            
+        </form>
+        
+    </body>
+</html>

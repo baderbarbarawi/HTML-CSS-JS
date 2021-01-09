@@ -1,0 +1,129 @@
+body
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 0;
+margin: 0;
+background-color: white;
+
+}
+.Kasten
+{
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+
+}
+ul
+{
+
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+header 
+{
+    background-color: rgb(29, 27, 27);
+    color:black;
+    padding-top: 70px;
+    min-height: 140px;
+    border-bottom: rgb(39, 24, 24) 8px solid;
+    background-color:lightgray;
+    /*background: url(https://previews.123rf.com/images/alexandersikov/alexandersikov1807/alexandersikov180700148/105005847-web-development-coding-programming-internet-technology-business-concept-.jpg);*/
+    background-repeat: round;
+    background-position: 50px;
+} 
+header a {
+
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 30px 0 30px;
+
+}
+header #Vorstellung h1{
+    margin: 0;
+
+}
+header nav{
+    float: left;
+    margin-top: 10px;
+
+}
+header .Hell, header .content a{
+    color: white(253, 255, 255, 0);
+    font-weight: normal;
+    font-style: oblique;
+    
+    
+    
+
+
+}
+header a:hover{
+    color :lightblue;
+    font-weight: bold;
+    
+}
+h1{
+    margin: 20px;
+    padding: 10px;
+    
+    
+
+    
+    
+    
+}
+#Vorstellung
+{
+min-width: 400px;
+/*background: url(https://c7.alamy.com/comp/WBDEMX/web-development-coding-and-programming-responsive-layout-internet-site-or-app-of-devices-creation-digital-software-mobile-desktop-platforms-WBDEMX.jpg);*/
+background: url(image.jpg);
+background-repeat :round;
+padding-bottom: 400px;
+
+}
+
+
+#Vorstellung h1{
+
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    color: lightskyblue;
+}
+#Vorstellung pre{
+    font-size: 20px;
+    margin-left: 20px;
+    
+
+}
+h2{
+    text-align: center;
+    color: darkgoldenrod;
+    font-style: oblique;
+    
+}
+mark{
+    color:black;
+    text-transform: capitalize;
+    text-decoration-color: aqua;
+    
+    
+    
+
+}
+.Anschrifft{
+    text-align: right;
+    color: aliceblue;
+    
+}
+head{
+    text-align: center;
+}

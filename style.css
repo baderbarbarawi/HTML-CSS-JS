@@ -1,0 +1,76 @@
+#Titel{
+    text-align: center;
+    color: yellow;
+    font-style: oblique;
+}
+form > .feld
+{
+    
+    color: crimson;
+}
+input[required]{
+    border:solid blue 3px;
+    
+}
+input:invalid{
+    border:solid red 3px;
+}
+nav > .content{
+    
+
+}
+/*html{
+
+    background: url("https://i.pinimg.com/originals/62/76/86/6276869d518bcaff533b56046ba83273.jpg");
+
+    background-size: 25%;
+}*/
+#sprichwort
+{
+    text-align: center;
+    font-size: large;
+    font-style: inherit;
+    background-color: aquamarine;
+    border-style: double;
+    text-shadow: 50%;
+    
+    text-decoration:underline;
+    padding: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    
+    margin: 100px;
+
+    
+}
+h1
+{
+    text-align: center;
+    background-color: bisque;
+    border: 100px;
+    margin: 90px;
+    
+}
+#Trans
+{
+direction: rtl;
+text-align: center;
+}
+#liste{
+    list-style-type:square;
+}
+#paragraph
+        {
+
+            direction: rtl;
+
+        }
+
+    #text 
+    {
+        text-align: center;
+
+    }
+
+    
+        
